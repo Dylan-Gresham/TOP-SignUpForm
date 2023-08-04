@@ -3,6 +3,10 @@
     src: url("./Norse-Bold.otf");
 }
 
+:root {
+    --fFam: Arial, Helvetica, sans-serif, system-ui;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -80,7 +84,7 @@ body {
 }
 
 #rightTopContainer > p {
-    font-family: Arial, Helvetica, sans-serif, system-ui;
+    font-family: var(--fFam);
     font-weight: 600;
     font-size: clamp(16px, 20px, 26px);
 }
@@ -96,6 +100,7 @@ body {
     padding: 0 0 0 36px;
     margin: 8px 0 16px 0;
     text-align: left;
+    font-family: var(--fFam);
 }
 
 #rightMidContainer > span {
@@ -116,5 +121,57 @@ body {
 
 #rightMidContainer > span > div > label {
     font-size: clamp(6px, 12px, 16px);
-    color: #242424;
+    color: rgb(70, 78, 105);
+    font-weight: 500;
+    font-family: var(--fFam);
+    letter-spacing: 1px;
+
+}
+
+#rightMidContainer > span > div > input {
+    border-radius: 6px;
+    font-family: var(--fFam);
+    box-shadow: none;
+    outline: none;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 3px;
+}
+
+#rightBotContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding: 0;
+    padding-left: 36px;
+    font-family: var(--fFam);
+}
+
+#rightBotContainer .submitButton {
+    cursor: pointer;
+    border: none;
+}
+
+#rightBotContainer > #createAcc {
+    background-color: rgb(40, 168, 40);
+    width: 175px;
+    border-radius: 6px;
+    padding: 15px 28px;
+    font-weight: 700;
+    color: white;
+}
+
+#rightBotContainer > span {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4px;
+}
+
+#rightBotContainer > span > p {
+    font-size: clamp(12px, 14px, 16px);
+}
+
+#rightBotContainer #logIn {
+    color: rgb(40, 168, 40);
+    background-color: inherit;
 }
