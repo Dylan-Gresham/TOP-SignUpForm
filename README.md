@@ -9,3 +9,5 @@ This project is meant to serve as practice replicating a design that's already b
 [Background Image](https://unsplash.com/photos/T26KCgCPsCI) from Wil Stewart on [unsplash.com](https://unsplash.com)
 
 [Odin Logo and Norse Bold font](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) from The Odin Project: Project: Sign-up Form project description page
+
+[Form icon](https://icons8.com/icon/18914/form) by [Icons8](https://icons8.com)
