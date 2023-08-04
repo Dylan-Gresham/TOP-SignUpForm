@@ -175,3 +175,20 @@ body {
     color: rgb(40, 168, 40);
     background-color: inherit;
 }
+
+#rightMidContainer input:focus:invalid,
+#rightMidContainer input:focus:valid,
+#rightMidContainer input:focus {
+    outline: 2px solid rgb(84, 36, 227);
+    transition: all 0.2s;
+}
+
+#rightMidContainer input:invalid {
+    outline: 2px solid red;
+    transition: all 0.2s;
+}
+
+#rightMidContainer input:valid {
+    outline: 2px solid rgb(6, 174, 6);
+    transition: all 0.2s;
+}
